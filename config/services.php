@@ -36,7 +36,7 @@ return [
     ],
 
     'quart' => [
-        'base_url' => env('API_BASE_URL'),
+        'base_uri' => env('API_BASE_URL'),
     ],
 
 ];
