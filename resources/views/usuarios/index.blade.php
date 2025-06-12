@@ -9,7 +9,7 @@
   @endif
 
   <div class="flex justify-between items-center mb-4">
-    <h1 class="text-3xl font-bold mb-6 text-blue-600">Usuários</h1>
+    <h1 class="text-3xl font-bold mb-6 text-gray-100">Usuários</h1>
     <a href="{{ route('usuarios.create') }}"
        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
        Criar novo

@@ -27,15 +27,6 @@
              class="w-full border rounded p-2 @error('discord_id') border-red-500 @enderror">
       @error('discord_id')<p class="text-red-500 text-sm">{{ $message }}</p>@enderror
     </div>
-
-    <div class="flex items-center">
-      <input type="checkbox" name="admin" value="1"
-             id="admin"
-             class="mr-2"
-             {{ old('admin', $usuario['admin']) ? 'checked' : '' }}>
-      <label class="text-gray-100" for="admin">Administrador</label>
-    </div>
-
     <button type="submit"
             class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
       Salvar
