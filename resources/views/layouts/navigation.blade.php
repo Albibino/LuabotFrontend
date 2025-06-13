@@ -16,8 +16,20 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('usuarios.index')" :active="request()->routeIs('users.*')">
+                    <x-nav-link :href="route('usuarios.index')" :active="request()->routeIs('usuarios.*')">
                         {{ __('Usuários') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('servidores.index')" :active="request()->routeIs('servidores.*')">
+                        {{ __('Servidores') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('niveis.index')" :active="request()->routeIs('niveis.*')">
+                        {{ __('Niveis') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('mensagens.index')" :active="request()->routeIs('mensagens.*')">
+                        {{ __('Mensagens') }}
                     </x-nav-link>
                 </div>
             </div>
