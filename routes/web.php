@@ -13,7 +13,7 @@ Route::get('/', function () {
 });
 
 Route::middleware(['auth'])->get('/home', function () {
-    return view('home');            // <── aqui
+    return view('home');
 })->name('home');
 
 Route::middleware('auth')->group(function () {
